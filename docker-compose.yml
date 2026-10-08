@@ -1,0 +1,10 @@
+services:
+  myntra-clone:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: myntra-clone:latest
+    container_name: myntra-clone
+    ports:
+      - "3000:80"
+    restart: unless-stopped

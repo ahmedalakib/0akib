@@ -1,0 +1,10 @@
+node_modules
+build
+.git
+.github
+EKS-TF
+script
+*.md
+test.txt
+Dockerfile
+docker-compose.yml
